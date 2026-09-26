@@ -1,0 +1,10 @@
+{
+  "policy": "Keep formula-bearing passages and adjacent explanatory context; exclude unrelated anatomy, acupuncture, exercise, administrative, and general lecture material.",
+  "excludedContentTypes": [
+    {"type":"anatomy-only","reason":"No formula or formula-learning relationship."},
+    {"type":"acupuncture-only","reason":"Outside the formula-first V1 scope."},
+    {"type":"exercise-or-rehabilitation-only","reason":"Outside the formula-first V1 scope."},
+    {"type":"administrative-slide","reason":"No educational formula content."}
+  ],
+  "reviewQueue": "See raw-sources.json extractionReport.visualReviewSlides for picture-heavy slides requiring visual review."
+}

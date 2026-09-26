@@ -1,0 +1,9 @@
+{
+  "name": "Traumatology Formula Guide",
+  "short_name": "Formula Guide",
+  "description": "A source-traceable study guide for traumatology formulas and formula families.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8f0df",
+  "theme_color": "#20211f"
+}

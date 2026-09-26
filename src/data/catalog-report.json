@@ -1,0 +1,37 @@
+{
+  "formulaCount": 46,
+  "examFormulaCount": 22,
+  "herbCount": 75,
+  "relationshipCount": 69,
+  "formulaSourceCoverage": 46,
+  "formulasWithoutSourceMatch": [],
+  "examFormulaIds": [
+    "shao-yao-gan-cao-tang",
+    "jie-geng-tang",
+    "xiao-ban-xia-tang",
+    "gui-zhi-gan-cao-tang",
+    "zeng-ye-tang",
+    "si-ni-san",
+    "si-jun-zi-tang",
+    "si-wu-tang",
+    "si-miao-san",
+    "gui-zhi-tang",
+    "huang-qi-gui-zhi-wu-wu-tang",
+    "er-chen-tang",
+    "liu-wei-di-huang-wan",
+    "tao-hong-si-wu-tang",
+    "si-hai-shu-yu-wan",
+    "xiao-chai-hu-tang",
+    "qiang-huo-sheng-shi-tang",
+    "chai-hu-shu-gan-san",
+    "xiao-yao-san",
+    "xue-fu-zhu-yu-tang",
+    "hai-zao-yu-hu-tang",
+    "du-huo-ji-sheng-tang"
+  ],
+  "visualReviewSlides": [
+    10,
+    11,
+    67
+  ]
+}

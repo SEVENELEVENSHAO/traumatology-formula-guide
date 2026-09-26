@@ -1,0 +1,44 @@
+{
+  "name": "traumatology-formula-guide",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "extract": "python scripts/extract_sources.py",
+    "catalog": "python scripts/build_catalog.py",
+    "data:validate": "node scripts/validate_catalog.mjs",
+    "data:refresh": "npm run extract && npm run catalog && npm run data:validate",
+    "check": "npm run data:validate && npm run typecheck && npm run lint && npm run test && npm run build"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.8.5",
+    "dagre": "^0.8.5",
+    "lucide-react": "^0.468.0",
+    "next": "15.5.24",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@playwright/test": "^1.55.1",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
+    "@types/dagre": "^0.7.52",
+    "@types/node": "^22.18.6",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "15.5.24",
+    "jsdom": "^27.0.0",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
