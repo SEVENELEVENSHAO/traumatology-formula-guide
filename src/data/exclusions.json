@@ -6,5 +6,10 @@
     {"type":"exercise-or-rehabilitation-only","reason":"Outside the formula-first V1 scope."},
     {"type":"administrative-slide","reason":"No educational formula content."}
   ],
-  "reviewQueue": "See raw-sources.json extractionReport.visualReviewSlides for picture-heavy slides requiring visual review."
+  "visualReview": [
+    {"slide":10,"decision":"included","formula":"San Huang San","reason":"Picture-heavy formula instruction slide; retained as pending-review source content."},
+    {"slide":11,"decision":"excluded","reason":"Commercial plaster product overview without a named ingredient formula."},
+    {"slide":67,"decision":"included","formula":"Shuang Bai San","reason":"Picture-heavy formula identification slide; retained as pending-review source content."}
+  ],
+  "reviewQueue": "No unresolved picture-heavy slides from the automated visual-review queue."
 }

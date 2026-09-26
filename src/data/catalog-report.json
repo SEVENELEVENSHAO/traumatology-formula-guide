@@ -1,9 +1,9 @@
 {
-  "formulaCount": 46,
+  "formulaCount": 48,
   "examFormulaCount": 22,
   "herbCount": 75,
   "relationshipCount": 69,
-  "formulaSourceCoverage": 46,
+  "formulaSourceCoverage": 48,
   "formulasWithoutSourceMatch": [],
   "examFormulaIds": [
     "shao-yao-gan-cao-tang",

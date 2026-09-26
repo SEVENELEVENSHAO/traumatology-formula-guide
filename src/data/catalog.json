@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedUtc": "2026-09-26T19:14:46.886583+00:00",
+  "generatedUtc": "2026-09-26T19:26:06.125073+00:00",
   "sources": [
     {
       "id": "external-medicine-414c",
@@ -4208,6 +4208,106 @@
       ],
       "ingredientCount": 0,
       "searchText": "Xiao Huo Luo Dan chronic painful obstruction Wind-damp formulas",
+      "ingredientRecords": []
+    },
+    {
+      "id": "san-huang-san",
+      "name": "San Huang San",
+      "aliases": [
+        "Herbal Ice"
+      ],
+      "category": "External formula",
+      "family": "Topical traumatology formulas",
+      "exam": false,
+      "ingredients": [],
+      "contexts": [
+        "external application after injury",
+        "picture-based lecture formula"
+      ],
+      "reviewStatus": "pending",
+      "sourceReferences": [
+        {
+          "sourceId": "external-medicine-414c",
+          "locator": {
+            "kind": "slide",
+            "index": 10
+          },
+          "recordId": "external-medicine-414c:s10",
+          "text": "10 / San huang san “Herbal Ice”",
+          "reviewStatus": "pending"
+        }
+      ],
+      "ingredientCount": 0,
+      "searchText": "San Huang San Herbal Ice external application after injury picture-based lecture formula Topical traumatology formulas",
+      "ingredientRecords": []
+    },
+    {
+      "id": "shuang-bai-san",
+      "name": "Shuang Bai San",
+      "aliases": [],
+      "category": "External formula",
+      "family": "Topical traumatology formulas",
+      "exam": false,
+      "ingredients": [],
+      "contexts": [
+        "external traumatology formula",
+        "picture-based lecture formula"
+      ],
+      "reviewStatus": "pending",
+      "sourceReferences": [
+        {
+          "sourceId": "external-medicine-414c",
+          "locator": {
+            "kind": "slide",
+            "index": 46
+          },
+          "recordId": "external-medicine-414c:s46",
+          "text": "Management Apply heat or cold packs Anti-inflammatories - advil or naproxen Massage and acupuncture Wind-cold dampness invading the collaterals: soreness, stiffness or the neck after waking up in the morning or with history of exposure to wind -cold T. light red, P rapid, floating , slippery wiry Ge Gan Tang Ge Gan, Gui Zhi, Shao Yao - pain in upper Ma Huang, Sheng Jiang - expel wind cold Da Zao, Gan Cao, Qiang Huo Shen Shi Tang – Exterior wind damp Qiang Huo, Du Huo, Fang Feng, Gao Ben Chuang Xiong, Man Jing Zi Zhi Gan Cao / Shuang Bai San Da Huang Bo He Huang Bo, Ze Lan, Ce Bai Ye",
+          "reviewStatus": "pending"
+        },
+        {
+          "sourceId": "external-medicine-414c",
+          "locator": {
+            "kind": "slide",
+            "index": 64
+          },
+          "recordId": "external-medicine-414c:s64",
+          "text": "64 / Shuang Bai San – Double cypress powder (dissolving or dispersion) Da Huang 20gm Bo He 10gm Huang Bo 10g Ze Lan 10g Ce Bai Ye 20g Actions Activates the blood Dispels blood stasis to resolve swelling Alleviates pain",
+          "reviewStatus": "pending"
+        },
+        {
+          "sourceId": "external-medicine-414c",
+          "locator": {
+            "kind": "slide",
+            "index": 67
+          },
+          "recordId": "external-medicine-414c:s67",
+          "text": "Shuang bai san",
+          "reviewStatus": "pending"
+        },
+        {
+          "sourceId": "external-medicine-414c",
+          "locator": {
+            "kind": "slide",
+            "index": 101
+          },
+          "recordId": "external-medicine-414c:s101",
+          "text": "101 / Heat pad or cold - use ice for first 48 -72 hours External herbal patch - Shuang Bai San - Ce Bai Ye, Da Huang, Huang Bai, Bo He Ze Lan Acupuncture Massage Stop normal physical activity for first few days After 2-3 weeks resume activity Gradually stretching and strengthening and exercising again",
+          "reviewStatus": "pending"
+        },
+        {
+          "sourceId": "external-medicine-414c",
+          "locator": {
+            "kind": "slide",
+            "index": 190
+          },
+          "recordId": "external-medicine-414c:s190",
+          "text": "Wu Ling San or Bei Xin Lian Zi Yin Ze Xie Fu Ling Zhu Ling Bai Zhu Gui Zhi Irritability + Insomnia -Qing Xin Lian Zi Yin ain men dong, che qian zi, di gu pi, ren shen lian zi, huang qi, Huang qin, Fu Ling, Gan Cao Bitter dry mouth, rib tension, ringing in ears Long Dan Xie Gan Tang / External Management Jin Huang San Shuang Bai San",
+          "reviewStatus": "pending"
+        }
+      ],
+      "ingredientCount": 0,
+      "searchText": "Shuang Bai San external traumatology formula picture-based lecture formula Topical traumatology formulas",
       "ingredientRecords": []
     }
   ],
