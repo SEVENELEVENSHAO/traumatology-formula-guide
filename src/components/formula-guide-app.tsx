@@ -27,7 +27,11 @@ export function FormulaGuideApp() {
   useEffect(() => {
     const saved = localStorage.getItem("tfg-bookmarks");
     if (saved) setBookmarks(JSON.parse(saved));
-    if ("serviceWorker" in navigator) navigator.serviceWorker.register("./sw.js").catch(() => undefined);
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" })
+        .then((registration) => registration.update())
+        .catch(() => undefined);
+    }
   }, []);
 
   const results = useMemo(() => searchFormulas(query), [query]);
