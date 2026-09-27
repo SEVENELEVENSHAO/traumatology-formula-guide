@@ -64,11 +64,14 @@ button, a, input, select { outline-offset: 3px; }
 .category:nth-child(6n+4) { background: #f0e6b9; }
 .category:nth-child(6n+5) { background: #e7dcef; }
 .category:nth-child(6n+6) { background: #efcfd5; }
-.category-toggle { width: 100%; border: 0; background: transparent; padding: .85rem 1rem; display: flex; align-items: center; justify-content: space-between; font-weight: 800; text-align: left; cursor: pointer; }
+.category-toggle { width: 100%; border: 0; background: transparent; padding: .85rem 1rem; display: flex; align-items: center; justify-content: space-between; gap: .75rem; font-weight: 800; text-align: left; cursor: pointer; }
+.category-toggle > span { min-width: 0; }
+.family-meta { display: block; margin-top: .3rem; color: #48534c; font-size: .7rem; font-weight: 600; line-height: 1.35; }
 .category-content { background: rgba(255,255,255,.68); border-top: 1.5px solid var(--line); padding: .65rem; display: grid; gap: .55rem; }
 .formula-card { width: 100%; background: var(--white); border: 1.5px solid var(--line); border-radius: .9rem; padding: .8rem; cursor: pointer; text-align: left; transition: transform .15s ease, box-shadow .15s ease; }
 .formula-card:hover { transform: translate(-2px,-2px); box-shadow: 3px 3px 0 var(--line); }
 .formula-card strong { display: block; font-family: Georgia, serif; font-size: 1.05rem; }
+.formula-order { float: right; color: #7b827c; font: 700 .72rem/1 ui-monospace, SFMono-Regular, Consolas, monospace; }
 .formula-card small { display: block; margin-top: .35rem; color: var(--muted); }
 .tag-row { display: flex; gap: .35rem; flex-wrap: wrap; margin-top: .55rem; }
 .tag { display: inline-flex; align-items: center; gap: .25rem; border-radius: 999px; background: #edf0e9; border: 1px solid #909a92; padding: .18rem .45rem; font-size: .68rem; }

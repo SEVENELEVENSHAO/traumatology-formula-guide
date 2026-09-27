@@ -3,8 +3,9 @@ import { expect, test } from "@playwright/test";
 test("library search, drawer, bookmark, and compare journey", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "Learn the family, not just the list." })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Formula Families" })).toBeVisible();
+  await expect(page.getByRole("button", { name: /Si Wu Tang family/ })).toHaveAttribute("aria-expanded", "true");
   await page.getByPlaceholder(/Search names/).fill("Tao Hong");
-  await page.getByRole("button", { name: /6 herbs/ }).click();
   await page.getByText("Tao Hong Si Wu Tang", { exact: true }).click();
   await expect(page.getByRole("dialog")).toContainText("Formulas contained here");
   await page.getByRole("dialog").getByRole("button", { name: "Add bookmark", exact: true }).click();
